@@ -1,0 +1,366 @@
+{
+  "developer": {
+    "name": "Jens Lindner",
+    "job": "Web-Development & Quality Assurance",
+    "hobby": "Photography",
+    "title": "B. Eng. in Multimediatechnik & Koch",
+    "keyNote": "Neugierig, Engagiert, Zuverlässig!",
+    "intro": "Programmieren mit JavaScript und Fotografieren sind meine große Leidenschaft. In Vue 3 und moderner Web-Entwicklung bilde ich mich selbstständig weiter.",
+    "introFin": "Wollt Ihr mehr über mich erfahren, dann schreibt mich einfach an.",
+    "profiles": [
+      {
+        "id": 1,
+        "name": "facebook",
+        "url": "https://www.facebook.com/LindnerJens",
+        "title": "Besuche mein Profil auf Facebook",
+        "svg": {
+          "d": "M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z",
+          "viewBox": "0 0 320 512"
+        }
+      },
+      {
+        "id": 2,
+        "name": "linkedIn",
+        "url": "https://www.linkedin.com/in/jens-lindner",
+        "title": "Besuche mein Profil auf LinkedIn",
+        "svg": {
+          "d": "M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z",
+          "viewBox": "0 0 448 512"
+        }
+      },
+      {
+        "id": 3,
+        "name": "xing",
+        "url": "https://www.xing.com/profile/Jens_Lindner24/cv",
+        "title": "Besuche mein Profil auf XING",
+        "svg": {
+          "d": "M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.051c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.016z",
+          "viewBox": "0 0 24 24"
+        }
+      },
+      {
+        "id": 4,
+        "name": "instagram",
+        "url": "https://www.instagram.com/jens.vue",
+        "title": "Besuche mein Profil auf Instagram",
+        "svg": {
+          "d": "M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z",
+          "viewBox": "0 0 448 512"
+        }
+      }
+    ],
+    "contact": {
+      "type": "mail",
+      "address": "mailTo:feeloca82@gmail.com",
+      "title": "Kontaktiere mich über E-Mail",
+      "svg": {
+        "d1": "M496.327,127.091l-15.673,9.613L281.83,258.623c-7.983,4.859-16.917,7.293-25.84,7.293s-17.826-2.424-25.778-7.262l-0.136-0.084L31.347,134.771l-15.673-9.759L0,115.242v302.717h512V117.488L496.327,127.091z",
+        "d2": "M25.245,94.041l25.161,15.673l25.161,15.673l171.008,106.527c5.841,3.521,13.082,3.511,18.913-0.042l173.652-106.486l25.558-15.673l25.558-15.673H25.245z",
+        "viewBox": "0 0 512 512"
+      }
+    },
+    "projects": [
+      {
+        "id": 1,
+        "name": "Feeloca",
+        "description": "Travel & Nature Stories",
+        "url": "https://facebook.com/feeloca",
+        "public": true
+      },
+      {
+        "id": 2,
+        "name": "Glückstreffer",
+        "description": "Zufallstipps für Lotterien deiner Wahl",
+        "url": "",
+        "public": false
+      },
+      {
+        "id": 3,
+        "name": "Youtube-Kanal",
+        "description": "Coding mit Vue 3",
+        "url": "",
+        "public": false
+      }
+    ],
+    "interests": [
+      {
+        "id": 1,
+        "name": "Vue 3",
+        "url": "https://vuejs.org/"
+      },
+      {
+        "id": 2,
+        "name": "Vite",
+        "url": "https://vitejs.dev/"
+      },
+      {
+        "id": 3,
+        "name": "Vue Router 4",
+        "url": "https://router.vuejs.org/"
+      },
+      {
+        "id": 4,
+        "name": "TailwindCSS",
+        "url": "https://tailwindcss.com/"
+      },
+      {
+        "id": 5,
+        "name": "Cypress",
+        "url": "https://www.cypress.io/"
+      },
+      {
+        "id": 6,
+        "name": "Progressive Web App",
+        "url": "https://web.dev/progressive-web-apps/"
+      },
+      {
+        "id": 7,
+        "name": "Typescript",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "id": 8,
+        "name": "Pinia",
+        "url": "https://pinia.vuejs.org/"
+      },
+      {
+        "id": 9,
+        "name": "Firebase",
+        "url": "https://firebase.google.com/"
+      },
+      {
+        "id": 10,
+        "name": "Axios",
+        "url": "https://axios-http.com/"
+      },
+      {
+        "id": 11,
+        "name": "Immutable",
+        "url": "https://immutable-js.com/"
+      },
+      {
+        "id": 12,
+        "name": "Web 3.0",
+        "url": "https://de.wikipedia.org/wiki/Web3"
+      },
+      {
+        "id": 13,
+        "name": "Maschine Learning",
+        "url": "https://de.wikipedia.org/wiki/Maschinelles_Lernen"
+      },
+      {
+        "id": 14,
+        "name": "NUXT",
+        "url": "https://nuxtjs.org/"
+      },
+      {
+        "id": 15,
+        "name": "Service Engineering",
+        "url": "https://de.wikipedia.org/wiki/Service_Engineering"
+      },
+      {
+        "id": 16,
+        "name": "Node JS",
+        "url": "https://nodejs.org"
+      },
+      {
+        "id": 17,
+        "name": "Express JS",
+        "url": "https://expressjs.com"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": 1,
+        "name": "ISTQB",
+        "url": "https://www.istqb.org/"
+      },
+      {
+        "id": 2,
+        "name": "Application Management",
+        "url": "https://de.wikipedia.org/wiki/Application-Management"
+      },
+      {
+        "id": 3,
+        "name": "IT Support",
+        "url": "https://de.wikipedia.org/wiki/IT-Support"
+      },
+      {
+        "id": 4,
+        "name": "API Test",
+        "url": "https://smartbear.com/solutions/api-testing/"
+      },
+      {
+        "id": 5,
+        "name": "Softwareentwicklung",
+        "url": "https://de.wikipedia.org/wiki/Vorgehensmodell_zur_Softwareentwicklung"
+      },
+      {
+        "id": 6,
+        "name": "Web 2.0",
+        "url": "https://de.wikipedia.org/wiki/Web_2.0"
+      },
+      {
+        "id": 7,
+        "name": "SCRUM",
+        "url": "https://de.wikipedia.org/wiki/Scrum"
+      },
+      {
+        "id": 8,
+        "name": "Continious Integration",
+        "url": "https://de.wikipedia.org/wiki/Kontinuierliche_Integration"
+      },
+      {
+        "id": 9,
+        "name": "Mobile Test",
+        "url": "https://test-and-integration.t-systems-mms.com/test-automation/mobile-test.html"
+      },
+      {
+        "id": 10,
+        "name": "Java",
+        "url": "https://www.java.com"
+      }
+    ],
+    "basics": [
+      {
+        "id": 1,
+        "name": "Requirement Engineering",
+        "url": "https://en.wikipedia.org/wiki/Requirements_engineering"
+      },
+      {
+        "id": 2,
+        "name": "DevOps",
+        "url": "https://de.wikipedia.org/wiki/DevOps"
+      },
+      {
+        "id": 3,
+        "name": "AWS",
+        "url": "https://aws.amazon.com"
+      },
+      {
+        "id": 5,
+        "name": "ITIL",
+        "url": "https://www.ahd.de/itil-was-ist-das/"
+      }
+    ],
+    "learning": [
+      {
+        "id": 1,
+        "name": "Udemy",
+        "url": "https://www.udemy.com"
+      },
+      {
+        "id": 2,
+        "name": "Vue School",
+        "url": "https://vueschool.io"
+      },
+      {
+        "id": 3,
+        "name": "YouTube Vue 3 & TypeScript",
+        "url": "https://www.youtube.com/results?search_query=typescript+vue+3+"
+      },
+      {
+        "id": 4,
+        "name": "Bing AI",
+        "url": "https://www.bing.com/search?q=Bing+AI"
+      },
+      {
+        "id": 5,
+        "name": "JS Hero",
+        "url": "https://www.jshero.net/"
+      },
+      {
+        "id": 6,
+        "name": "Dev Day",
+        "url": "https://www.devday.de/"
+      },
+      {
+        "id": 7,
+        "name": "free^CodeCamp",
+        "url": "https://www.freecodecamp.org/"
+      }
+    ]
+  },
+  "branches": [
+    {
+      "id": 1,
+      "name": "E-Government",
+      "url": "https://de.wikipedia.org/wiki/E-Government"
+    },
+    {
+      "id": 2,
+      "name": "Telekommunikation",
+      "url": "https://de.wikipedia.org/wiki/Telekommunikationsmarkt"
+    }
+  ],
+  "apis": [
+    {
+      "id": 1,
+      "type": "News",
+      "name": "Hacker News API",
+      "description": "Zufälliger Beitrag aus der Web-Entwicklung",
+      "docUrl": "https://github.com/HackerNews/API",
+      "url1": "https://hacker-news.firebaseio.com/v0/showstories.json?print=pretty",
+      "url2": "https://hacker-news.firebaseio.com/v0/item/<REPLACEME>.json?print=pretty"
+    },
+    {
+      "id": 2,
+      "type": "Meals",
+      "name": "Freen Meal API",
+      "description": "Zufälliges leckeres Rezept",
+      "docUrl": "https://www.themealdb.com/api.php",
+      "url1": "https://www.themealdb.com/api/json/v1/1/random.php",
+      "url2": ""
+    }
+  ],
+  "tipps": [
+    {
+      "id": 1,
+      "name": "Original Bootcamp",
+      "desc": "Du möchtest deine Reiselust mit Sport verbinden?",
+      "url": "https://www.original-bootcamp.com/"
+    },
+    {
+      "id": 2,
+      "name": "Duolingo",
+      "desc": "Du lernst gern neue Sprachen und nimmst dir täglch mindestens 5-10 Minuten dafür Zeit?",
+      "url": "https://duolingo.com/"
+    },
+    {
+      "id": 3,
+      "name": "Suche nach j€ns#1",
+      "desc": "Du brauchst etwas Gerhirnjogging? Fordere mich beim Quizduell heraus!",
+      "url": "https://play.google.com/store/apps/details?id=se.maginteractive.quizduel2&hl=de&gl=GB"
+    }
+  ],
+  "impressumSources": [
+    {
+      "id": 1,
+      "url": "https://github.com/anish2690/vue-cookie-next"
+    },
+    {
+      "id": 2,
+      "url": "https://github.com/anish2690/vue-cookie-next"
+    },
+    {
+      "id": 3,
+      "url": "https://www.npmjs.com/package/vue-tailwind-elements"
+    },
+    {
+      "id": 4,
+      "url": "https://vite-pwa-org.netlify.app/"
+    }
+  ],
+  "impressumHints": [
+    {
+      "id": 1,
+      "linkText": "Netifly",
+      "url": "https://www.netlify.com"
+    },
+    {
+      "id": 2,
+      "linkText": "heroicons.com",
+      "url": "https://heroicons.com"
+    }
+  ]
+}

@@ -118,4 +118,3 @@ dist
 .pnp.*
 yarn.lock
 src/data/fbc.json
-src/data/data.json
