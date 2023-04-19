@@ -51,7 +51,21 @@ const data: any | undefined = sourceData;
       :key="basic.id"
     />
   </div>
-  <h1 :class="theme.getHTW">Wo lerne ich?</h1>
+  <h1 :class="theme.getHTW">Branchen</h1>
+  <div class="flex flex-wrap items-center justify-center">
+    <badge
+      :message="branches.name"
+      :link="branches.url"
+      :tw="
+        theme.getBadgeTW(
+          Math.floor(Math.random() * Math.floor(badgeThemeLength))
+        )
+      "
+      v-for="branches in data.branches"
+      :key="branches.id"
+    />
+  </div>
+  <h1 :class="theme.getHTW">Wo ich lerne</h1>
   <div class="flex flex-wrap items-center justify-center">
     <badge
       :message="learning.name"

@@ -61,7 +61,7 @@ const aTWLength = theme.getTextColorTWLength;
       </div>
       <div>
         <p :class="theme.getTextGrayTW">
-          Dieser Dienst verwendet keine benutzerbezogenen oder persönlichen
+          Diese Webseite verwendet keine benutzerbezogenen oder persönlichen
           Daten und keine Session-Cookies. Alle Aktionen dieser Seite laufen im
           Browser des Nutzers ab. Wenn die verknüpften Links zu weiterführenden
           Informationen zu den angegebenen Themen genutzt werden, wird keine

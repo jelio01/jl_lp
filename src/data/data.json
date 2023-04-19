@@ -214,11 +214,6 @@
         "id": 9,
         "name": "Mobile Test",
         "url": "https://test-and-integration.t-systems-mms.com/test-automation/mobile-test.html"
-      },
-      {
-        "id": 10,
-        "name": "Java",
-        "url": "https://www.java.com"
       }
     ],
     "basics": [
@@ -241,6 +236,11 @@
         "id": 5,
         "name": "ITIL",
         "url": "https://www.ahd.de/itil-was-ist-das/"
+      },
+      {
+        "id": 6,
+        "name": "Java",
+        "url": "https://www.java.com"
       }
     ],
     "learning": [
@@ -271,13 +271,13 @@
       },
       {
         "id": 6,
-        "name": "Dev Day",
-        "url": "https://www.devday.de/"
+        "name": "freeCodeCamp",
+        "url": "https://www.freecodecamp.org/"
       },
       {
         "id": 7,
-        "name": "free^CodeCamp",
-        "url": "https://www.freecodecamp.org/"
+        "name": "Dev Day",
+        "url": "https://www.devday.de/"
       }
     ]
   },
@@ -291,6 +291,11 @@
       "id": 2,
       "name": "Telekommunikation",
       "url": "https://de.wikipedia.org/wiki/Telekommunikationsmarkt"
+    },
+    {
+      "id": 3,
+      "name": "Verkehr",
+      "url": "https://de.wikipedia.org/wiki/Verkehrswesen"
     }
   ],
   "apis": [
