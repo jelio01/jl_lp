@@ -48,7 +48,7 @@ export default defineConfig({
         globPatterns: [
           "**/*.{json,ico,svg,ttf,woff,css,js,html,txt,jpg,png,woff2,mjs}",
         ],
-        swDest: "/sw.js",
+        swDest: "./sw.js",
         swSrc: "./src/sw.ts",
         maximumFileSizeToCacheInBytes: 30000000,
       },
