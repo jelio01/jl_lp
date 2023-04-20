@@ -167,6 +167,11 @@
         "id": 17,
         "name": "Express JS",
         "url": "https://expressjs.com"
+      },
+      {
+        "id": 18,
+        "name": "TestCafe",
+        "url": "https://testcafe.io"
       }
     ],
     "knowledge": [
@@ -241,6 +246,11 @@
         "id": 6,
         "name": "Java",
         "url": "https://www.java.com"
+      },
+      {
+        "id": 7,
+        "name": "outsystems",
+        "url": "https://www.outsystems.com"
       }
     ],
     "learning": [
