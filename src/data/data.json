@@ -321,7 +321,7 @@
     {
       "id": 2,
       "type": "Meals",
-      "name": "Freen Meal API",
+      "name": "TheMealDB API",
       "description": "Zufälliges leckeres Rezept",
       "docUrl": "https://www.themealdb.com/api.php",
       "url1": "https://www.themealdb.com/api/json/v1/1/random.php",
