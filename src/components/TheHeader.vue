@@ -21,8 +21,8 @@ const share = () => {
   if (navigator.share) {
     navigator.share({
       title: "Jens Lindner",
-      text: "Darf ich mich vorstellen?",
-      url: "https://www.dein-zufallstipp.de",
+      text: "Hi my name is...",
+      url: "https://jens-lindner-intro.netlify.app/",
     });
   }
 };
