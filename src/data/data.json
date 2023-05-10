@@ -66,110 +66,101 @@
         "description": "Travel & Nature Stories",
         "url": "https://facebook.com/feeloca",
         "public": true
-      },
-      {
-        "id": 2,
-        "name": "Glückstreffer",
-        "description": "Zufallstipps für Lotterien deiner Wahl",
-        "url": "",
-        "public": false
-      },
-      {
-        "id": 3,
-        "name": "Youtube-Kanal",
-        "description": "Coding mit Vue 3",
-        "url": "",
-        "public": false
       }
     ],
     "interests": [
       {
         "id": 1,
+        "name": "SOLID JS",
+        "url": "https://www.solidjs.com"
+      },
+      {
+        "id": 2,
         "name": "Vue 3",
         "url": "https://vuejs.org/"
       },
       {
-        "id": 2,
+        "id": 3,
         "name": "Vite",
         "url": "https://vitejs.dev/"
       },
       {
-        "id": 3,
+        "id": 4,
         "name": "Vue Router 4",
         "url": "https://router.vuejs.org/"
       },
       {
-        "id": 4,
+        "id": 5,
         "name": "TailwindCSS",
         "url": "https://tailwindcss.com/"
       },
       {
-        "id": 5,
+        "id": 6,
         "name": "Cypress",
         "url": "https://www.cypress.io/"
       },
       {
-        "id": 6,
+        "id": 7,
         "name": "Progressive Web App",
         "url": "https://web.dev/progressive-web-apps/"
       },
       {
-        "id": 7,
+        "id": 8,
         "name": "Typescript",
         "url": "https://www.typescriptlang.org/"
       },
       {
-        "id": 8,
+        "id": 9,
         "name": "Pinia",
         "url": "https://pinia.vuejs.org/"
       },
       {
-        "id": 9,
+        "id": 10,
         "name": "Firebase",
         "url": "https://firebase.google.com/"
       },
       {
-        "id": 10,
+        "id": 11,
         "name": "Axios",
         "url": "https://axios-http.com/"
       },
       {
-        "id": 11,
+        "id": 12,
         "name": "Immutable",
         "url": "https://immutable-js.com/"
       },
       {
-        "id": 12,
+        "id": 13,
         "name": "Web 3.0",
         "url": "https://de.wikipedia.org/wiki/Web3"
       },
       {
-        "id": 13,
+        "id": 14,
         "name": "Maschine Learning",
         "url": "https://de.wikipedia.org/wiki/Maschinelles_Lernen"
       },
       {
-        "id": 14,
+        "id": 15,
         "name": "NUXT",
         "url": "https://nuxtjs.org/"
       },
       {
-        "id": 15,
+        "id": 16,
         "name": "Service Engineering",
         "url": "https://de.wikipedia.org/wiki/Service_Engineering"
       },
       {
-        "id": 16,
+        "id": 17,
         "name": "Node JS",
         "url": "https://nodejs.org"
       },
       {
-        "id": 17,
+        "id": 18,
         "name": "Express JS",
         "url": "https://expressjs.com"
       },
       {
-        "id": 18,
+        "id": 19,
         "name": "TestCafe",
         "url": "https://testcafe.io"
       }
@@ -283,11 +274,6 @@
         "id": 6,
         "name": "freeCodeCamp",
         "url": "https://www.freecodecamp.org/"
-      },
-      {
-        "id": 7,
-        "name": "Dev Day",
-        "url": "https://www.devday.de/"
       }
     ]
   },

@@ -19,8 +19,6 @@ if (
   props.message.startsWith("Bing")
 ) {
   linkTitle = ref("Lernen mit " + props.message);
-} else if (props.message.startsWith("Dev")) {
-  linkTitle = ref("Weiterführende Informationen zum " + props.message);
 } else {
   linkTitle = ref("Weiterführende Informationen zu " + props.message);
 }

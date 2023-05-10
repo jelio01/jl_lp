@@ -21,7 +21,7 @@ const share = () => {
   if (navigator.share) {
     navigator.share({
       title: "Jens Lindner",
-      text: "Hi my name is...",
+      text: "Look up that Guy...",
       url: "https://jens-lindner-intro.netlify.app/",
     });
   }
