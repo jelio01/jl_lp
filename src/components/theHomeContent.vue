@@ -9,12 +9,6 @@ import tipps from "@/components/TheTipps.vue";
 
 const theme = useThemeTWStore();
 const data: any | undefined = sourceData;
-
-const aTWLength = theme.getTextColorTWLength;
-
-const aiTW = theme.getTextColorTW(
-  Math.floor(Math.random() * Math.floor(aTWLength))
-);
 </script>
 
 <template>
@@ -40,17 +34,6 @@ const aiTW = theme.getTextColorTW(
             <p :class="theme.getTextGrayTW">
               {{ data.developer.intro }}
               {{ data.developer.introFin }}
-            </p>
-            <p :class="theme.getTextGrayTW">
-              Höre
-              <appLink
-                to="https://myonlineradio.de/jam-fm#server1713"
-                :class="aiTW"
-                title="JAM FM Radio hören"
-                >JAM FM Radio</appLink
-              >
-              während du auf meiner Seite stöberst. Viel Spaß und habe einen
-              angenehmen Tag!
             </p>
           </div>
         </div>

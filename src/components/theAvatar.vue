@@ -19,10 +19,10 @@ const titleTWLength = theme.getTextColorTWLength;
             <div class="flex justify-center">
               <div class="flex justify-center" style="margin-top: -75px">
                 <img
-                  src="../assets/IMG_0653.jpg"
-                  class="mx-auto rounded-full shadow-lg"
+                  src="../assets/8be3355c.jpg"
+                  class="mx-auto rounded shadow-xl"
                   alt=""
-                  style="width: 150px"
+                  style="width: 300px"
                 />
               </div>
             </div>
