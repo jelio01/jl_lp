@@ -5,8 +5,8 @@
     "hobby": "Photography",
     "title": "B. Eng. in Multimediatechnik & Koch",
     "keyNote": "Neugierig, Engagiert, Zuverlässig!",
-    "intro": "Programmieren mit JavaScript und Fotografieren sind meine große Leidenschaft. In Vue 3 und moderner Web-Entwicklung bilde ich mich selbstständig weiter.",
-    "introFin": "Wollt Ihr mehr über mich erfahren, dann schreibt mich einfach an.",
+    "intro": "Webentwicklung und Fotografieren sind meine große Leidenschaft. In AI sehe ich großes Potentiell für die Zukunft, das Leben für uns einfacher und Lösungen für Kunden effizienter und zielgerichteter zu machen.",
+    "introFin": "Wollt Ihr mehr über mich erfahren, dann schreibt mich einfach an. Machen wir die Welt gemeinsam etwas besser, sauberer und fairer.",
     "profiles": [
       {
         "id": 1,
@@ -168,6 +168,11 @@
         "id": 20,
         "name": "KI basierte Datenanalyse",
         "url": "https://digitalzentrum-chemnitz.de/wissen/datenanalyse-mit-ki/"
+      },
+      {
+        "id": 21,
+        "name": "AI",
+        "url": "https://de.wikipedia.org/wiki/K%C3%BCnstliche_Intelligenz"
       }
     ],
     "knowledge": [
@@ -262,8 +267,8 @@
       },
       {
         "id": 3,
-        "name": "YouTube Vue 3 & TypeScript",
-        "url": "https://www.youtube.com/results?search_query=typescript+vue+3+"
+        "name": "YouTube",
+        "url": "https://www.youtube.com"
       },
       {
         "id": 4,
@@ -279,6 +284,16 @@
         "id": 6,
         "name": "freeCodeCamp",
         "url": "https://www.freecodecamp.org/"
+      },
+      {
+        "id": 7,
+        "name": "reactplay.io",
+        "url": "https://reactplay.io/"
+      },
+      {
+        "id": 8,
+        "name": "Elements of AI",
+        "url": "https://www.elementsofai.com/"
       }
     ]
   },

@@ -9,12 +9,6 @@ import tipps from "@/components/TheTipps.vue";
 
 const theme = useThemeTWStore();
 const data: any | undefined = sourceData;
-
-const aTWLength = theme.getTextColorTWLength;
-
-const aiTW = theme.getTextColorTW(
-  Math.floor(Math.random() * Math.floor(aTWLength))
-);
 </script>
 
 <template>
@@ -25,7 +19,7 @@ const aiTW = theme.getTextColorTW(
         <theAvatarVue />
         <div class="mb-12 lg:mb-0">
           <div class="mt-12 lg:mt-0">
-            <h1 class="mb-6 text-5xl font-bold leading-tight tracking-tight">
+            <h1 class="mb-6 text-4xl font-bold leading-tight tracking-tight">
               <span class="text-blue-600 dark:text-blue-200">{{
                 data.developer.keyNote
               }}</span>
@@ -39,11 +33,10 @@ const aiTW = theme.getTextColorTW(
             </div>
             <p :class="theme.getTextGrayTW">
               {{ data.developer.intro }}
+            </p>
+            <p :class="theme.getTextGrayTW">
               {{ data.developer.introFin }}
             </p>
-            <div class="text-center">
-              <p :class="aiTW">"Have a beautiful day!"</p>
-            </div>
           </div>
         </div>
       </div>
