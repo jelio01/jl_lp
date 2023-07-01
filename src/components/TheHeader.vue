@@ -3,7 +3,6 @@ import { useThemeTWStore } from "../store/themeTWStore";
 import { VueCookieNext } from "vue-cookie-next";
 
 const theme = useThemeTWStore();
-const dynImgNr = 1 + Math.floor(Math.random() * Math.floor(3));
 
 const switchTheme = () => {
   if (theme.getThemeMode === "dark") {
@@ -21,7 +20,7 @@ const share = () => {
   if (navigator.share) {
     navigator.share({
       title: "Jens Lindner",
-      text: "Look up that Guy...",
+      text: "Look up that...",
       url: "https://jens-lindner-intro.netlify.app/",
     });
   }
@@ -34,19 +33,13 @@ const share = () => {
     id="headerImg"
     class="center relative origin-center overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat text-center"
     :style="`
-      background-image: url('./img/${dynImgNr}.jpg');
-      height: 450px;
+      background-image: url('./img/${theme.getTopImg}.jpg');
+      height: 700px;
     `"
   >
     <div
       class="absolute top-0 right-0 bottom-0 left-0 h-full w-full origin-center overflow-hidden bg-slate-900 bg-opacity-30 dark:bg-black dark:bg-opacity-30"
-    >
-      <div class="flex h-full items-center justify-center">
-        <div>
-          <img src="/my_lp_logo.png" alt="" id="jl_logo" />
-        </div>
-      </div>
-    </div>
+    ></div>
     <div class="stickyTheme">
       <button
         id="themeSwitch"
@@ -108,17 +101,5 @@ const share = () => {
   z-index: 10;
   top: 70px;
   right: 50px;
-}
-#jl_logo {
-  animation: rotation 61s infinite linear;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
 }
 </style>

@@ -18,12 +18,10 @@ const titleTWLength = theme.getTextColorTWLength;
           >
             <div class="flex justify-center">
               <div class="flex justify-center" style="margin-top: -75px">
-                <img
-                  src="../assets/8be3355c.jpg"
-                  class="mx-auto rounded shadow-xl"
+                
+                <img src="/my_lp_logo.png" id="jl_logo" class="mx-auto rounded-full shadow-xl"
                   alt=""
-                  style="width: 300px"
-                />
+                  style="width: 150px"/>
               </div>
             </div>
             <div class="p-6 dark:text-slate-200">
@@ -80,5 +78,17 @@ const titleTWLength = theme.getTextColorTWLength;
 <style lang="scss" scoped>
 #avatarCon {
   margin-bottom: 0px;
+}
+#jl_logo {
+  animation: rotation 61s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 </style>

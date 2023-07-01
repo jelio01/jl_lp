@@ -9,6 +9,12 @@ import tipps from "@/components/TheTipps.vue";
 
 const theme = useThemeTWStore();
 const data: any | undefined = sourceData;
+
+const aTWLength = theme.getTextColorTWLength;
+
+const aiTW = theme.getTextColorTW(
+  Math.floor(Math.random() * Math.floor(aTWLength))
+);
 </script>
 
 <template>
@@ -35,6 +41,9 @@ const data: any | undefined = sourceData;
               {{ data.developer.intro }}
               {{ data.developer.introFin }}
             </p>
+            <div class="text-center">
+              <p :class="aiTW">"Have a beautiful day!"</p>
+            </div>
           </div>
         </div>
       </div>
