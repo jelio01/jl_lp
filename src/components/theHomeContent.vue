@@ -37,6 +37,9 @@ const data: any | undefined = sourceData;
             <p :class="theme.getTextGrayTW">
               {{ data.developer.introFin }}
             </p>
+            <p :class="theme.getTextGrayTW + ' my-2'">
+              {{ data.developer.togetherMessage }}
+            </p>
           </div>
         </div>
       </div>
@@ -48,9 +51,8 @@ const data: any | undefined = sourceData;
       <tipps />
     </div>
     <div class="pb-5">
-      <h1 :class="theme.getHTW + ' text-3xl'">
-        Stay Educated! - Lernen ist das halbe Leben.
-      </h1>
+      <h1 :class="theme.getHTW + ' text-3xl'">Stay Educated!</h1>
+      <h2 :class="theme.getHTW + ' text-2xl'">Lernen ist das halbe Leben.</h2>
       <p :class="theme.getTextGrayTW + ' text-center'">
         Mit den zwei nachfolgenden API-Komponenten kannst du Beitrage aus der
         Web-Entwicklung oder leckere Rezepte entdecken.

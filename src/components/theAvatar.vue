@@ -80,7 +80,7 @@ const titleTWLength = theme.getTextColorTWLength;
   margin-bottom: 0px;
 }
 #jl_logo {
-  animation: rotation 61s infinite linear;
+  animation: rotation 31s infinite linear;
 }
 
 @keyframes rotation {
