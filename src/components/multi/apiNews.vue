@@ -89,8 +89,8 @@ const callApi = async () => {
     <h1 :class="theme.getHTW">
       {{ props.name }}
     </h1>
-    <div class="mb-12 lg:mb-0">
-      <div class="mt-3 lg:mt-0">
+    <div class="lg:mb-0">
+      <div class="lg:mt-0">
         <badge :message="titleFromApi" :link="urlromApi" :tw="badgeTW" />
       </div>
       <i :class="theme.textGrayTW"

@@ -58,7 +58,7 @@ const data: any | undefined = sourceData;
         Web-Entwicklung oder leckere Rezepte entdecken.
       </p>
       <div
-        class="grid items-center justify-center gap-12 p-5 text-center lg:grid-cols-2"
+        class="grid items-center justify-center p-5 text-center lg:grid-cols-2"
       >
         <apiNews
           v-for="api in data.apis"

@@ -31,10 +31,10 @@ const share = () => {
   <!-- Jumbotron -->
   <div
     id="headerImg"
-    class="center relative origin-center overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat text-center"
+    class="center relative origin-center overflow-hidden rounded-lg bg-cover bg-top bg-no-repeat text-center"
     :style="`
       background-image: url('./img/${theme.getTopImg}.jpg');
-      height: 700px;
+      height: 600px;
     `"
   >
     <div
