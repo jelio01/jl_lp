@@ -24,7 +24,7 @@ const titleTWLength = theme.getTextColorTWLength;
                   style="width: 150px"/>
               </div>
             </div>
-            <div class="p-6 dark:text-slate-200">
+            <div class="p-6 dark:text-slate-200 text-gray-600">
               <h5 class="mb-4 text-2xl font-bold">
                 {{ sourceData.developer.name }}
               </h5>

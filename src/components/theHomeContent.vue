@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import theAvatarVue from "./theAvatar.vue";
 import sourceData from "../data/data.json";
-import { VueCookieNext } from "vue-cookie-next";
 import skills from "./TheSkills.vue";
 import apiNews from "./multi/apiNews.vue";
 import { useThemeTWStore } from "../store/themeTWStore";
@@ -17,27 +16,21 @@ const data: any | undefined = sourceData;
     <div class="px-6 py-12 md:px-6">
       <div class="grid items-center gap-6 lg:grid-cols-2">
         <theAvatarVue />
-        <div class="mb-12 lg:mb-0">
-          <div class="mt-12 lg:mt-0">
+        <div class="mb-4 lg:mb-0">
+          <div class="lg:mt-0">
             <h1 class="mb-6 text-4xl font-bold leading-tight tracking-tight">
               <span class="text-blue-600 dark:text-blue-200">{{
                 data.developer.keyNote
               }}</span>
             </h1>
-            <div class="tracking-tight text-blue-600 dark:text-blue-200">
-              Willkommen
-              <span v-if="VueCookieNext.isCookieAvailable('test')"
-                >zurück!</span
-              >
-              &#9996;
-            </div>
-            <p :class="theme.getTextGrayTW">
+            <p :class="theme.getTextGrayTW + ' my-2'">
               {{ data.developer.intro }}
             </p>
-            <p :class="theme.getTextGrayTW">
-              {{ data.developer.introFin }}
+            <p :class="theme.getTextGrayTW + ' my-2'">
+              {{ data.developer.introAI }}
             </p>
             <p :class="theme.getTextGrayTW + ' my-2'">
+              {{ data.developer.introFin }}&nbsp;
               {{ data.developer.togetherMessage }}
             </p>
           </div>

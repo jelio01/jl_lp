@@ -1,7 +1,6 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import "./index.css";
-import { VueCookieNext } from "vue-cookie-next";
 import VueCookieAcceptDecline from "vue-cookie-accept-decline";
 import "vue-cookie-accept-decline/dist/vue-cookie-accept-decline.css";
 import { createPinia } from "pinia";
@@ -34,7 +33,6 @@ pinia.use((context) => {
   });
 });
 
-app.use(VueCookieNext);
 app.use(pinia);
 app.use(router);
 app.use(VueAxios, axios);
@@ -44,13 +42,3 @@ app.provide("axios", app.config.globalProperties.axios);
 app.component("vue-cookie-accept-decline", VueCookieAcceptDecline);
 
 app.mount("#app");
-
-VueCookieNext.config({
-  expire: "1d",
-  path: "/",
-  domain: "localhost",
-  secure: "HttpOnly",
-  sameSite: "Strict",
-});
-
-VueCookieNext.setCookie("test", "1");
