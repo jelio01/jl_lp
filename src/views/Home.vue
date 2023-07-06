@@ -14,7 +14,7 @@ const aiTW = theme.getTextColorTW(
   <div>
     <div
       id="co"
-      class="container my-6 mx-auto mb-16 rounded-lg bg-slate-100 px-6 tracking-tight shadow-lg dark:bg-slate-700"
+      class="container my-6 mx-auto mb-16 rounded-lg bg-slate-100 px-6 tracking-tight shadow-lg dark:bg-slate-800"
     >
       <homeContent id="home" />
     </div>

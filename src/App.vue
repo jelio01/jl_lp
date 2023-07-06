@@ -50,22 +50,13 @@ onMounted(() => {
     <template #postponeContent>Coole Sache!</template>
 
     <!-- Optional -->
-    <template #message>
-      Diese Seite nutzt Cookies nur zur Verbesserung der Nutzbarkeit. Es erfolgt
-      darüber kein Tracking!
-      <appLink
-        to="https://cookiesandyou.com/"
-        title="Mehr über Cookies erfahren"
-        class=""
-        >>_ Mehr erfahren</appLink
-      >
-    </template>
+    <template #message> Diese Seite nutzt keine Cookies. </template>
 
     <!-- Optional 
      <template #declineContent>Opt Out</template>
     -->
     <!-- Optional -->
-    <template #acceptContent>Zur Kenntnis genommen</template>
+    <template #acceptContent>Geht klar.</template>
   </vue-cookie-accept-decline>
 </template>
 
