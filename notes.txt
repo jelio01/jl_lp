@@ -1,3 +1,13 @@
+imgBoxes sort:
+1 Berufserfahrung
+2 Berührungspunkte
+3 Branchen
+4 Lernplattformen
+5 Werkzeuge
+6 Themen
+7 News 
+8 Rezepte
+
 Template:
 
 https://vitejs.dev/

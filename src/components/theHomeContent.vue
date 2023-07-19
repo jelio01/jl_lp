@@ -1,13 +1,37 @@
 <script setup lang="ts">
 import theAvatarVue from "./theAvatar.vue";
 import sourceData from "../data/data.json";
-import skills from "./TheSkills.vue";
 import apiNews from "./multi/apiNews.vue";
 import { useThemeTWStore } from "../store/themeTWStore";
-import tipps from "@/components/TheTipps.vue";
+import skillBox from "./multi/skillBox.vue";
 
 const theme = useThemeTWStore();
+
 const data: any | undefined = sourceData;
+const topics: string[] = [
+  "Berufserfahrung",
+  "Grundkenntnisse",
+  "Werkzeuge",
+  "Themen",
+  "Branchen",
+  "Lernplattformen",
+];
+
+const apis: string[] = ["News", "Rezepte"];
+
+const imageFileNumbers = Array.from({ length: 8 }, (_, i) => i + 1);
+
+const randomiIageFileNumbers = (ar: number[]) => {
+  for (let i = ar.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [ar[i], ar[j]] = [ar[j], ar[i]];
+  }
+
+  return ar;
+};
+
+const randomImageFile = [...randomiIageFileNumbers(imageFileNumbers)];
+const randomApiImageFile = randomImageFile.slice(6);
 </script>
 
 <template>
@@ -36,32 +60,16 @@ const data: any | undefined = sourceData;
           </div>
         </div>
       </div>
-      <div class="grid items-center gap-3 lg:grid-cols-1">
-        <skills />
-      </div>
-    </div>
-    <div class="pb-5 text-center">
-      <tipps />
-    </div>
-    <div class="pb-5">
-      <h1 :class="theme.getHTW + ' text-3xl'">Stay Educated!</h1>
-      <h2 :class="theme.getHTW + ' text-2xl'">Lernen ist das halbe Leben.</h2>
-      <p :class="theme.getTextGrayTW + ' text-center'">
-        Mit den zwei nachfolgenden API-Komponenten kannst du Beitrage aus der
-        Web-Entwicklung oder leckere Rezepte entdecken.
-      </p>
-      <div
-        class="grid items-center justify-center p-5 text-center lg:grid-cols-2"
-      >
+      <div class="grid items-center gap-3 lg:grid-cols-2">
+        <skillBox
+          v-for="top in topics"
+          :topic="top"
+          :fileNumber="randomImageFile[topics.indexOf(top)]"
+        />
         <apiNews
-          v-for="api in data.apis"
-          :key="api.id"
-          :type="api.type"
-          :name="api.name"
-          :description="api.description"
-          :doc-url="api.docUrl"
-          :api-url1="api.url1"
-          :api-url2="api.url2"
+          v-for="api in apis"
+          :topic="api"
+          :fileNumber="randomApiImageFile[apis.indexOf(api)]"
         />
       </div>
     </div>

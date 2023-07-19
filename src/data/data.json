@@ -70,7 +70,39 @@
         "public": true
       }
     ],
-    "interests": [
+    "topics": [
+      {
+        "id": 1,
+        "name": "Frontend Entwicklung",
+        "url": "https://en.wikipedia.org/wiki/Front-end_web_development"
+      },
+      {
+        "id": 2,
+        "name": "Web 3.0",
+        "url": "https://de.wikipedia.org/wiki/Web3"
+      },
+      {
+        "id": 3,
+        "name": "Alghorithmen",
+        "url": "https://de.wikipedia.org/wiki/Algorithmus"
+      },
+      {
+        "id": 4,
+        "name": "Service Engineering",
+        "url": "https://de.wikipedia.org/wiki/Service_Engineering"
+      },
+      {
+        "id": 5,
+        "name": "KI basierte Datenanalyse",
+        "url": "https://digitalzentrum-chemnitz.de/wissen/datenanalyse-mit-ki/"
+      },
+      {
+        "id": 6,
+        "name": "AI",
+        "url": "https://de.wikipedia.org/wiki/K%C3%BCnstliche_Intelligenz"
+      }
+    ],
+    "tools": [
       {
         "id": 1,
         "name": "SOLID JS",
@@ -88,28 +120,28 @@
       },
       {
         "id": 4,
-        "name": "Vite",
-        "url": "https://vitejs.dev/"
-      },
-      {
-        "id": 5,
         "name": "REACT",
         "url": "https://react.dev/"
       },
       {
-        "id": 6,
+        "id": 5,
         "name": "NEXT.JS",
         "url": "https://nextjs.org/"
       },
       {
+        "id": 6,
+        "name": "Node JS",
+        "url": "https://nodejs.org"
+      },
+      {
         "id": 7,
-        "name": "TailwindCSS",
-        "url": "https://tailwindcss.com/"
+        "name": "Express JS",
+        "url": "https://expressjs.com"
       },
       {
         "id": 8,
-        "name": "Cypress",
-        "url": "https://www.cypress.io/"
+        "name": "TailwindCSS",
+        "url": "https://tailwindcss.com/"
       },
       {
         "id": 9,
@@ -128,53 +160,23 @@
       },
       {
         "id": 12,
-        "name": "Axios",
-        "url": "https://axios-http.com/"
-      },
-      {
-        "id": 13,
         "name": "Immutable",
         "url": "https://immutable-js.com/"
       },
       {
-        "id": 14,
-        "name": "Web 3.0",
-        "url": "https://de.wikipedia.org/wiki/Web3"
-      },
-      {
-        "id": 15,
-        "name": "Maschine Learning",
-        "url": "https://de.wikipedia.org/wiki/Maschinelles_Lernen"
-      },
-      {
-        "id": 16,
-        "name": "Service Engineering",
-        "url": "https://de.wikipedia.org/wiki/Service_Engineering"
-      },
-      {
-        "id": 17,
-        "name": "Node JS",
-        "url": "https://nodejs.org"
-      },
-      {
-        "id": 18,
-        "name": "Express JS",
-        "url": "https://expressjs.com"
-      },
-      {
-        "id": 19,
+        "id": 13,
         "name": "TestCafe",
         "url": "https://testcafe.io"
       },
       {
-        "id": 20,
-        "name": "KI basierte Datenanalyse",
-        "url": "https://digitalzentrum-chemnitz.de/wissen/datenanalyse-mit-ki/"
+        "id": 14,
+        "name": "Cypress",
+        "url": "https://www.cypress.io/"
       },
       {
-        "id": 21,
-        "name": "AI",
-        "url": "https://de.wikipedia.org/wiki/K%C3%BCnstliche_Intelligenz"
+        "id": 15,
+        "name": "Postman",
+        "url": "https://www.postman.com/"
       }
     ],
     "knowledge": [
@@ -346,26 +348,6 @@
       "url2": ""
     }
   ],
-  "tipps": [
-    {
-      "id": 1,
-      "name": "Original Bootcamp",
-      "desc": "Du möchtest deine Reiselust mit Sport verbinden?",
-      "url": "https://www.original-bootcamp.com/"
-    },
-    {
-      "id": 2,
-      "name": "Duolingo",
-      "desc": "Du lernst gern neue Sprachen und nimmst dir täglch mindestens 5-10 Minuten dafür Zeit?",
-      "url": "https://duolingo.com/"
-    },
-    {
-      "id": 3,
-      "name": "Suche nach j€ns#1",
-      "desc": "Du brauchst etwas Gerhirnjogging? Fordere mich beim Quizduell heraus!",
-      "url": "https://play.google.com/store/apps/details?id=se.maginteractive.quizduel2&hl=de&gl=GB"
-    }
-  ],
   "impressumSources": [
     {
       "id": 1,
@@ -394,6 +376,40 @@
       "id": 2,
       "linkText": "heroicons.com",
       "url": "https://heroicons.com"
+    }
+  ],
+  "boxImgCap": [
+    {
+      "id": 1,
+      "name": "Zwölf Apostel | Australien"
+    },
+    {
+      "id": 2,
+      "name": "Ausblick Weinberge | Radebeul"
+    },
+    {
+      "id": 3,
+      "name": "Wörthersee | Österreich"
+    },
+    {
+      "id": 4,
+      "name": "Ostragehege | Dresden"
+    },
+    {
+      "id": 5,
+      "name": "Cliffs of Moher | Irland "
+    },
+    {
+      "id": 6,
+      "name": "Algarve | Portugal"
+    },
+    {
+      "id": 7,
+      "name": "Ninh Binh | Vietnam"
+    },
+    {
+      "id": 8,
+      "name": "Mt. Fuji | Japan"
     }
   ]
 }

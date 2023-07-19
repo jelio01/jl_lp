@@ -57,6 +57,22 @@ const aTWLength = theme.getTextColorTWLength;
               >
             </li>
           </ul>
+          <span :class="theme.getHTW">APIs:</span>
+          <ul :class="theme.getTextGrayTW">
+            <li v-for="api in refLinks.apis" :key="api.id">
+              {{ api.name }}<br />
+              <appLink
+                :to="api.docUrl"
+                :class="
+                  theme.getTextColorTW(
+                    Math.floor(Math.random() * Math.floor(aTWLength))
+                  )
+                "
+                :title="api.docUrl"
+                >{{ api.docUrl }}</appLink
+              >
+            </li>
+          </ul>
         </div>
       </div>
       <div>

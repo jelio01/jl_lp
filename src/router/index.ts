@@ -20,7 +20,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes,
   scrollBehavior(to, from, savedPosition) {
-    if (to.name == "Home" || to.name == "Impressum") {
+    if (to.name == "Home" || to.name === "Impressum") {
       return new Promise((resolve) => {
         setTimeout(() => {
           resolve({

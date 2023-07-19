@@ -3,10 +3,6 @@ import { ref, onUpdated } from "vue";
 const props = defineProps({
   message: { type: String, required: true },
   link: { type: String, required: true },
-  tw: {
-    type: String,
-    required: true,
-  },
 });
 
 let linkTitle = ref("");
@@ -29,7 +25,9 @@ onUpdated(() => {
 </script>
 
 <template>
-  <div :class="props.tw">
+  <div
+    class="hover:bg-white-300 m-2 inline-flex items-center rounded-full border-white bg-slate-100 bg-opacity-80 px-3 py-1 font-semibold text-gray-500 drop-shadow dark:bg-slate-100 dark:text-gray-500 dark:hover:bg-gray-200"
+  >
     <span class="ml-1">
       <appLink :to="props.link" :title="linkTitle">{{ props.message }}</appLink>
     </span>
