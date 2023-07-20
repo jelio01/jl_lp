@@ -37,7 +37,7 @@ const randomApiImageFile = randomImageFile.slice(6);
 <template>
   <!-- Section: Design Block -->
   <section class="text-center text-gray-800 lg:text-left">
-    <div class="px-6 py-12 md:px-6">
+    <div class="py-12">
       <div class="grid items-center gap-6 lg:grid-cols-2">
         <theAvatarVue />
         <div class="mb-4 lg:mb-0">
