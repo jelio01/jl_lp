@@ -239,13 +239,23 @@
       },
       {
         "id": 6,
+        "name": "Phyton",
+        "url": "https://www.python.org/"
+      },
+      {
+        "id": 7,
         "name": "Java",
         "url": "https://www.java.com"
       },
       {
-        "id": 7,
+        "id": 8,
         "name": "outsystems",
         "url": "https://www.outsystems.com"
+      },
+      {
+        "id": 9,
+        "name": "Prompt Engineering",
+        "url": "https://de.wikipedia.org/wiki/Prompt_Engineering"
       }
     ],
     "learning": [
