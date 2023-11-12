@@ -145,8 +145,8 @@
       },
       {
         "id": 8,
-        "name": "Firebase",
-        "url": "https://firebase.google.com/"
+        "name": "IntelliJ IDEA",
+        "url": "https://www.jetbrains.com/de-de/idea"
       },
       {
         "id": 9,
@@ -256,6 +256,11 @@
         "id": 9,
         "name": "Prompt Engineering",
         "url": "https://de.wikipedia.org/wiki/Prompt_Engineering"
+      },
+      {
+        "id": 10,
+        "name": "Spring Boot",
+        "url": "https://spring.io/projects/spring-boot/"
       }
     ],
     "learning": [
