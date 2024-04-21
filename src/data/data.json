@@ -110,48 +110,48 @@
     "tools": [
       {
         "id": 1,
-        "name": "SOLID JS",
-        "url": "https://www.solidjs.com"
+        "name": "NextJS",
+        "url": "https://nextjs.org"
       },
       {
         "id": 2,
-        "name": "Vue 3",
-        "url": "https://vuejs.org/"
+        "name": "REACT",
+        "url": "https://react.dev"
       },
       {
         "id": 3,
-        "name": "REACT",
-        "url": "https://react.dev/"
-      },
-      {
-        "id": 4,
         "name": "ChatGPT",
         "url": "https://openai.com/chatgpt"
       },
       {
-        "id": 5,
-        "name": "TailwindCSS",
-        "url": "https://tailwindcss.com/"
-      },
-      {
-        "id": 6,
+        "id": 4,
         "name": "PWA",
         "url": "https://web.dev/progressive-web-apps/"
       },
       {
-        "id": 7,
+        "id": 5,
         "name": "Typescript",
         "url": "https://www.typescriptlang.org/"
       },
       {
-        "id": 8,
+        "id": 6,
+        "name": "VS Code",
+        "url": "https://code.visualstudio.com"
+      },
+      {
+        "id": 7,
         "name": "IntelliJ IDEA",
         "url": "https://www.jetbrains.com/de-de/idea"
       },
       {
-        "id": 9,
+        "id": 8,
         "name": "ES6",
         "url": "https://www.w3schools.com/js/js_es6.asp/"
+      },
+      {
+        "id": 9,
+        "name": "Playwright",
+        "url": "https://playwright.dev"
       },
       {
         "id": 10,
@@ -170,8 +170,8 @@
       },
       {
         "id": 13,
-        "name": "VS Code",
-        "url": "https://code.visualstudio.com"
+        "name": "Vue",
+        "url": "https://vuejs.org"
       }
     ],
     "knowledge": [
